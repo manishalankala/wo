@@ -37,9 +37,9 @@ spec:
               cpu: 70m
               memory: 200Mi              
           volumeMounts:
-            - name: redis-volume-mount
+            - name: redis-volume
               mountPath: /mnt/disk/vol1
       volumes:
-        - name: redis-pvc
+        - name: redis-volume
           persistentVolumeClaim:
             claimName: redis-pvc

@@ -7,7 +7,7 @@ metadata:
     type: local
     app: redis
 spec:
-  persistentVolumeReclaimPolicy: Recycle
+  persistentVolumeReclaimPolicy: Retain
   storageClassName: local-storage
   local:
     path: /mnt/data

@@ -18,5 +18,7 @@ and the pods using this volume will be fixed on a specific node, which can ensur
 
 
 #### Errors
+
 1 pod has unbound immediate PersistentVolumeClaims.
+
 1 node(s) had taint {node-role.kubernetes.io/master: }, that the pod didn't tolerate.

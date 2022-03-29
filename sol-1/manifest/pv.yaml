@@ -12,7 +12,7 @@ spec:
   local:
     path: /mnt/data
   capacity:
-    storage: 50Mi
+    storage: 1Gi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce 

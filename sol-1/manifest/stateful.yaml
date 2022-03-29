@@ -38,7 +38,7 @@ spec:
               memory: 200Mi              
           volumeMounts:
             - name: redis
-              mountPath: /mnt/disk/vol1
+              mountPath: /mnt/data
       volumes:
         - name: redis
           persistentVolumeClaim:

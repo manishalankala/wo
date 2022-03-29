@@ -10,13 +10,13 @@ spec:
   persistentVolumeReclaimPolicy: Recycle
   storageClassName: local-storage
   local:
-    path: /mnt/disk/vol1
+    path: /mnt/data
   capacity:
     storage: 50Mi
   volumeMode: Filesystem
   accessModes:
     - ReadWriteOnce 
-  nodeAffinity:
+  nodeAffinity:   # default nodeAffinity for all persistent volumes
     required:
       nodeSelectorTerms:
       - matchExpressions:

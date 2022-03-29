@@ -14,3 +14,9 @@ If you want to fix each pod on a node, you need to configure scheduling informat
 
 LocalVolume: The volume itself contains scheduling information, 
 and the pods using this volume will be fixed on a specific node, which can ensure data continuity.
+
+
+
+#### Errors
+1 pod has unbound immediate PersistentVolumeClaims.
+1 node(s) had taint {node-role.kubernetes.io/master: }, that the pod didn't tolerate.

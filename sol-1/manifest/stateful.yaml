@@ -43,3 +43,14 @@ spec:
         - name: redis
           persistentVolumeClaim:
             claimName: redis
+
+
+#  volumeClaimTemplates:
+#  - metadata:
+#      name: redis
+#    spec:
+#      accessModes: [ "ReadWriteOnce" ]
+#      storageClassName: "local-storage"
+#      resources:
+#        requests:
+#          storage: 1Gi
